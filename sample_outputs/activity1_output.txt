@@ -13,7 +13,10 @@ Running the full agent (5 AI calls: facts + 4 generator calls)...
     "presented it at my Midterm Seminar",
     "ran a live demo of the quiz engine's rapid-fire timer",
     "ran a live demo of a dynamically drawn SVG bell curve",
-    "ran a live demo of a score projection matrix"
+    "ran a live demo of a score projection matrix",
+    "designed a Bayesian Blending approach",
+    "built the backend using the Firebase REST API",
+    "handled the frontend with browser DOM manipulation and asynchronous JavaScript"
   ],
   "tools_and_skills": [
     "GitHub Pages",
@@ -32,48 +35,44 @@ Running the full agent (5 AI calls: facts + 4 generator calls)...
 }
 
 === Resume bullet ===
-Built the Caarya Grand Quiz, a full-stack web app with live global analytics, and presented it at my Midterm Seminar.
+Built a full-stack web app with live global analytics for the Caarya Grand Quiz.
 
 === LinkedIn post ===
-I presented my Caarya Grand Quiz at my Midterm Seminar, featuring live global analytics and a range of interactive demos, using skills like browser DOM manipulation and asynchronous JavaScript.
+I recently presented my Caarya Grand Quiz project at Midterm Seminar, where I ran a live demo of the quiz engine I built using Firebase REST API and JavaScript.
 
 === Portfolio card ===
 {
-  "headline": "Caarya Grand Quiz",
-  "description": "I built the Caarya Grand Quiz, a full-stack web app featuring live, global analytics. The app was deployed using static hosting on GitHub Pages and presented at my Midterm Seminar. I utilized various tools and skills, including browser DOM manipulation and asynchronous JavaScript.",
+  "headline": "Caarya Grand Quiz App",
+  "description": "Built a full-stack web app with live global analytics, utilizing Firebase REST API and JavaScript. The app was presented at Midterm Seminar and deployed using GitHub Pages. Key features include a Bayesian Blending approach and browser DOM manipulation.",
   "tags": [
     "GitHub Pages",
     "Firebase REST API",
-    "SVG",
+    "JavaScript",
     "Midterm Seminar"
   ]
 }
 
 === Proof summary ===
-At my Midterm Seminar, I presented the Caarya Grand Quiz, a full-stack web app I built, to the Faculty in Charge, Swastibrata Bhattacharyya. The app features live, global analytics and was deployed using static hosting on GitHub Pages. I ran live demos of the quiz engine's rapid-fire timer, a dynamically drawn SVG bell curve, and a score projection matrix.
+At the Midterm Seminar, a full-stack web app called Caarya Grand Quiz was built and presented. The app featured live global analytics and was deployed using GitHub Pages. Key actions included designing a Bayesian Blending approach, building the backend with Firebase REST API, and handling the frontend with browser DOM manipulation and asynchronous JavaScript.
 
 === Skill evidence ===
 [
   {
-    "skill": "browser DOM manipulation",
-    "evidence": "built the Caarya Grand Quiz"
+    "skill": "JavaScript",
+    "evidence": "Handled the frontend with browser DOM manipulation and asynchronous JavaScript"
   },
   {
-    "skill": "asynchronous JavaScript",
-    "evidence": "built the Caarya Grand Quiz"
+    "skill": "Firebase REST API",
+    "evidence": "Built the backend using Firebase REST API"
   },
   {
-    "skill": "SVG",
-    "evidence": "ran a live demo of a dynamically drawn SVG bell curve"
-  },
-  {
-    "skill": "static hosting",
-    "evidence": "deployed it using static hosting on GitHub Pages"
+    "skill": "Browser DOM manipulation",
+    "evidence": "Handled the frontend with browser DOM manipulation and asynchronous JavaScript"
   }
 ]
 
 === Recruiter description ===
-Built and presented the Caarya Grand Quiz, a full-stack web app, at the Midterm Seminar, utilizing GitHub Pages, asynchronous JavaScript, and SVG, and demonstrating technical capability in a solo project.
+Built a full-stack web app for the Caarya Grand Quiz, deploying it using GitHub Pages and presenting at the Midterm Seminar, demonstrating capability in building and deploying web applications.
 
 === Improvement suggestion ===
-Integrate Firebase REST API into the Caarya Grand Quiz to enhance its live, global analytics
+Implement automated testing for the quiz engine to further strengthen the full-stack web app.
