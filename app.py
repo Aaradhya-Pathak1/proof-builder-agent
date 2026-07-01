@@ -16,7 +16,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 
-from proof_builder import llm
+from proof_builder import llm, pdf_export
 from proof_builder.pipeline import run_pipeline
 
 load_dotenv()
@@ -200,9 +200,20 @@ if result:
 
     st.divider()
     report_md = render_markdown_report(facts, artifacts)
-    st.download_button(
-        "Download full report (Markdown)",
-        data=report_md,
-        file_name="proof_builder_output.md",
-        mime="text/markdown",
-    )
+    dl_md, dl_pdf = st.columns(2)
+    with dl_md:
+        st.download_button(
+            "Download full report (Markdown)",
+            data=report_md,
+            file_name="proof_builder_output.md",
+            mime="text/markdown",
+            use_container_width=True,
+        )
+    with dl_pdf:
+        st.download_button(
+            "Download full report (PDF)",
+            data=pdf_export.build_pdf(facts, artifacts),
+            file_name="proof_builder_output.pdf",
+            mime="application/pdf",
+            use_container_width=True,
+        )

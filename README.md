@@ -40,6 +40,7 @@ proof-builder-agent/
 │   ├── llm.py                      Groq client wrapper (retries on rate limits)
 │   ├── intake.py                   raw text -> facts ledger
 │   ├── pipeline.py                 orchestrates intake + all 4 generator modules
+│   ├── pdf_export.py               renders the seven artifacts to a PDF
 │   └── generators/
 │       ├── _shared.py              shared grounding rules + JSON-call helper
 │       ├── public_proof.py         resume bullet + LinkedIn post
@@ -130,7 +131,9 @@ path with this stack:
 
 Per the work order, this covers the five required backbone moves (activity
 intake, public-proof outputs, presentation outputs, evaluator-facing
-outputs, improvement + packaging). The optional moves — a LinkedIn tone
-selector, a running portfolio aggregator, an automated consistency
-self-check pass, and PDF export — are not implemented here and would be
+outputs, improvement + packaging), plus one optional move: **PDF export** of
+the full set of seven artifacts (`proof_builder/pdf_export.py`, offered as a
+download button in the UI next to the Markdown export). The remaining optional
+moves — a LinkedIn tone selector, a running portfolio aggregator, and an
+automated consistency self-check pass — are not implemented here and would be
 natural next additions.
